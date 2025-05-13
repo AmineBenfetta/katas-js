@@ -219,5 +219,73 @@ function hero(bullets, dragons){
  return dna.replaceAll("T", "U");
 }*/
 
+// Find Maximum and Minimum Values of a List
+
+/*var min = function(list){
+    
+    return Math.min(...list);
+}
+
+var max = function(list){
+    
+    return Math.max(...list);
+}*/
+
+// You only need one - Beginner
+
+/*function check(a, x) {
+  return a.includes(x);
+}*/
+
+// Fake Binary
+
+/* j'ai utilisé une fonction ternaire pour celui-ci dans .map
+function fakeBin(x){
+  return x.split('').map((a)=> Number(a) < 5 ? '0' : '1').join('');
+}*/
+
+// Convert a string to an array
+
+/*function stringToArray(string){
+  return string.split(" ");
+}*/
+
+// Count by X
+
+/*function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i <= n; i++) {
+   z.push(x * i);
+  }
+  return z;
+}*/
+
+// Reversed sequence
+
+/*const reverseSeq = n => {
+  let z = [];
+  for (let i = 0; i < n; i++) {
+    z.push(n - i);
+  }
+  return z;
+};*/
+
+// Rock Paper Scissors!
+/* utilisation d'objets pour mettre une règle en place dans le pierre feuille sciseaux
+const rps = (p1, p2) => {
+  let rules = {
+    rock: "scissors",
+    scissors: "paper",
+    paper: "rock", 
+  };
+  if (p1 === p2) {
+    return "Draw!";
+  } else if (rules[p1] === p2) {
+    return "Player 1 won!" ;
+  } else {
+    return "Player 2 won!";
+  }
+};*/
+
 //
 
