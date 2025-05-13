@@ -73,3 +73,108 @@ function lovefunc(flower1, flower2){
     return n * m;
   }
 }*/
+
+// MakeUpperCase
+
+/*function makeUpperCase(str) {
+  return str.toUpperCase(); 
+}*/
+
+// Beginner Series #2 Clock
+
+/*function past(h, m, s){
+    return s * 1000 + m * 60 * 1000 + h * 60 * 60 * 1000;
+}
+console.log(past(0,1,1));
+
+function past(h, m, s){
+  return ((h*3600)+(m*60)+s)*1000;
+}*/
+
+// Are You Playing Banjo?
+
+/*function areYouPlayingBanjo(name) {
+  if (name[0] === "R" || name[0] === "r") {
+    return `${name} plays banjo`;
+  } else {
+  return `${name} does not play banjo`;
+}
+}*/
+
+//Simple multiplication
+
+
+/*function simpleMultiplication(number) {
+    if ( number % 2 === 0) {
+      return number * 8;
+    } else {
+      return number * 9;
+    }
+}*/
+
+// Abbreviate a Two Word Name
+
+/*function abbrevName(name){
+  return name.split(" ").map((n)=>n[0]).join(".").toUpperCase();
+}
+
+console.log(abbrevName("Sam Harris")); */
+
+// A Needle in the Haystack
+
+/*function findNeedle(haystack) {
+return 'found the needle at position ' + haystack.indexOf("needle", 0);
+}*/
+
+// Invert values
+
+/*function invert(array) {
+   return array.map(n => -n);
+}*/
+
+// Calculate average
+
+/*function findAverage(array) {
+  let sum = 0
+  if (array.length === 0) {
+    return 0;
+  }
+  for (let i = 0; i < array.length; i++){
+    sum += array[i];
+  }
+  return sum / array.length;
+}*/
+
+// Sentence Smash
+
+/*function smash (words) {
+   return words.join(" ");
+};*/
+
+// Beginner - Reduce but Grow
+
+/*function grow(x){
+  let product = 1;
+  for (let i = 0; i < x.length; i++) {
+    product *= x[i];
+  }
+  return product;
+}*/
+
+// How good are you really?
+
+/*function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+  for (let i = 0; i < classPoints.length; i++) {
+    sum += classPoints[i];
+  }
+  if (sum / classPoints.length > yourPoints) {
+    return false; 
+  } else if (sum / classPoints.length < yourPoints) {
+    return true; 
+  } else {
+    return false;
+  }
+}*/
+
+// 
