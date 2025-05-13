@@ -176,5 +176,48 @@ return 'found the needle at position ' + haystack.indexOf("needle", 0);
     return false;
   }
 }*/
+/*function betterThanAverage(classPoints, yourPoints) {
+  return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
+}*/
 
-// 
+// Is he gonna survive?
+
+/*function hero(bullets, dragons){
+  if (bullets >= dragons * 2) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function hero(bullets, dragons){
+  return bullets >= dragons * 2;
+}*/
+
+// Count of positives / sum of negatives
+
+/*function countPositivesSumNegatives(input) {
+  let sum = 0;
+  let pos = 0;
+  if (input === null || input.length === 0) {
+    return [];
+  }
+  for (let i = 0; i < input.length; i++) {
+    let nb = input[i];
+    if (nb > 0) {
+      pos++;
+    } else if (nb < 0) {
+      sum += nb;
+    }
+  }
+  return [pos, sum];
+}*/
+
+// DNA to RNA Conversion
+
+/*function DNAtoRNA(dna) {
+ return dna.replaceAll("T", "U");
+}*/
+
+//
+
