@@ -287,5 +287,92 @@ const rps = (p1, p2) => {
   }
 };*/
 
-//
+// If you can't sleep, just count sheep!!
+
+/*var countSheep = function (num){
+  let count = "";
+  for (let i = 1; i <= num; i++) {
+    count += `${i} sheep...`;
+  }
+  return count;
+}*/
+
+// Grasshopper - Grade book
+
+/*function getGrade (s1, s2, s3) {
+  let avg = (s1 + s2 + s3) / 3;
+  if (avg >= 90) {
+    return 'A';
+  } else if (avg >= 80) {
+    return 'B';
+  } else if (avg >= 70) {
+    return 'C';
+  } else if (avg >= 60) {
+    return 'D';
+  } else {
+    return 'F';
+  }
+}*/
+
+// Grasshopper - Personalized Message
+
+/*function greet (name, owner) {
+  return name === owner ? 'Hello boss' : 'Hello guest';
+}*/
+
+// Transportation on vacation
+
+/*function rentalCarCost(d) {
+  let amount = 40 * d;
+  return d >= 7 ? amount - 50 : d >= 3 ? amount - 20 : amount;
+}*/
+
+// Quarter of the year
+/* fonction ternaire = bro-ken
+const quarterOf = (month) => {
+  return month <= 3 ? 1 : month <= 6 ? 2 : month <= 9 ? 3 : 4;
+}*/
+
+// Remove exclamation marks
+
+/*function removeExclamationMarks(s) {
+  return s.replaceAll('!', '');
+}*/
+
+// Volume of a Cuboid
+
+/*class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}*/
+
+// Total amount of points
+
+/*function points(games) {
+  let total = 0;
+  for (let i = 0; i < games.length; i++) {
+    let [x,y] = games[i].split(":");
+    x = Number(x);
+    y = Number(y);
+   total += x > y ? 3 : x === y ? 1 : 0;
+  }
+  return total;
+}*/ 
+
+// Area or Perimeter
+
+/*const areaOrPerimeter = function(l , w) {
+  return l === w ? w * l : (l + w) * 2;
+};*/
+
+// Training JS #1: create your first JS function and print "Hello World!"
+
+/*function helloWorld() {
+  let str = "Hello World!";
+  console.log(str);
+}*/
+// Training JS #2: Basic data types--Number
+
+
 
