@@ -374,5 +374,22 @@ const quarterOf = (month) => {
 }*/
 // Training JS #2: Basic data types--Number
 
+// Training JS #3: Basic data types--String
 
+// Reversed Words
 
+/*function reverseWords(str){
+  return str.split(" ").reverse().join(" ");
+}*/
+
+// Jenny's secret message
+
+/*function greet(name){
+  if(name === "Johnny") {
+    return "Hello, my love!";
+    } else {
+      return "Hello, " + name + "!";
+    }
+}*/
+
+// 
