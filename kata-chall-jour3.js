@@ -297,4 +297,76 @@ return vacation === true ? false : employed === true && vacation === false ? tru
   return totalGoals;
 }*/
 
+// Grasshopper - Debug sayHello
+/*function sayHello(name) {
+  return `Hello, ${name}`;
+}*/
+
+// Pillars
+
+/*function pillars(numPill, dist, width) {
+  return numPill === 1 ? 0 : ((numPill - 1) * dist * 100) + ((numPill - 2) * width);
+}*/
+
+// Plural
+/*function plural(n) {
+  return n === 1 ? false : n === 1.0 ? false : true;
+}*/
+
+// Potenciation
+/*function power(x,y){
+  if (x === 0 && y === 0){
+    return 1;
+  }
+  let result = 1;
+  for (let i = 0 ; i < y ; i++) {
+    result *= x; 
+  }
+  return result;
+}*/
+
+// Grasshopper - Combine strings
+
+/*function combineNames(firstName, lastName) {
+  return firstName + ' ' + lastName; 
+}*/
+
+// Reverse List Order
+/*function reverseList(list) {
+return list.reverse() ;
+}*/
+
+// Super Duper Easy
+/*function problem(x){
+  let result = (x * 50) + 6;
+  if (typeof x === "number") {
+    return result;
+  } else {
+    return "Error";
+  }
+}*/
+
+// Type of sum
+
+/*function typeOfSum(a, b) {
+  let result = a + b;
+  if (typeof result === 'string') {
+    return 'string'; 
+  } else if (typeof result === 'number') {
+    return 'number'; 
+  }
+}*/
+
+// Grasshopper - Order of operations
+/*function orderOperations () {
+  return (2 + 2) * (2 + 2) * 2;
+}*/
+
+// Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
+
+/*function replace(s) {
+  //coding and coding....
+    return s.replaceAll(/[aeiou]/gi, '!');
+}*/
+
 // 
