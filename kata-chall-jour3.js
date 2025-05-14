@@ -160,3 +160,141 @@ return vacation === true ? false : employed === true && vacation === false ? tru
   return n % 2 === 0 ? true : false; 
 }*/
 
+// Keep Hydrated!
+/*function litres(time) {
+  let drink = 0.5; 
+  return Math.floor(time * drink);
+}*/
+
+// Is n divisible by x and y?
+/*function isDivisible(n, x, y) {
+  return n % x === 0 && n % y === 0 ? true : false;
+}*/
+
+// Calculate BMI
+/*function bmi(weight, height) {
+     return weight / (height * height) <= 18.5 ? "Underweight" : weight / (height * height) <= 25.0 ? "Normal" : weight / (height * height) <= 30.0 ? "Overweight": weight / (height * height) > 30 ? "Obese" : null;
+}*/
+
+// Thinkful - Logic Drills: Traffic light
+/*function updateLight(current) {
+  return current === "green" ? "yellow" : current === "yellow" ? "red" : current === "red" ? "green" : null;
+}*/
+
+// Cat years, Dog years
+/*var humanYearsCatYearsDogYears = function(humanYears) {
+  let dog = 0;
+  let cat = 0;
+  if (humanYears === 1) {
+    cat = 15;
+    dog = 15;
+  } else if (humanYears === 2){
+    cat = 15 + 9;
+    dog = 15 + 9;
+  } else {
+    cat = 24 + 4 * (humanYears - 2);
+    dog = 24 + 5 * (humanYears - 2);
+  }
+  return [humanYears,cat,dog];
+}*/
+
+// Is it a palindrome?
+/*function isPalindrome(x) {
+  let normalized = x.toLowerCase();
+  let pal = normalized.split('').reverse().join('');
+  if (normalized === pal) {
+    return true;
+  } else {
+    return false;
+  }
+}*/
+
+// Powers of 2
+/*function powersOfTwo(n){
+  let tab = [];
+  for (let i = 0; i <= n; i++){
+    tab.push(Math.pow(2, i));
+  }
+  return tab;
+}*/
+
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+/*String.prototype.toAlternatingCase = function () {
+  return this
+  .split('').map(char => {
+ if (char === char.toLowerCase()) {
+   return char.toUpperCase();
+ } else {
+   return char.toLowerCase(); 
+ }
+})
+   .join('');
+}*/ 
+
+// What is between?
+/*function between(a, b) {
+  let table = [];
+  for (let i = a; i <= b; i++) {
+    table.push(i);
+    }
+  return table; 
+  }*/
+
+// Sum The Strings
+/*function sumStr(a,b) {
+  let aa = Number(a);
+  let bb = Number(b);
+  let sum = aa + bb;
+  return String(sum); 
+}*/
+
+// Welcome!
+/*function greet(language) {
+	let country = {
+   english: "Welcome",
+   czech: "Vitejte",
+   danish: "Velkomst",
+   dutch: "Welkom",
+   estonian: "Tere tulemast",
+   finnish: "Tervetuloa",
+   flemish: "Welgekomen",
+   french: "Bienvenue",
+   german: "Willkommen",
+   irish: "Failte",
+   italian: "Benvenuto",
+   latvian: "Gaidits",
+   lithuanian: "Laukiamas",
+   polish: "Witamy",
+   spanish: "Bienvenido",
+   swedish: "Valkommen",
+   welsh: "Croeso",
+  }
+  return country[language] || "Welcome";
+}*/
+
+// Student's Final Grade
+/*function finalGrade (exam, projects) {
+  if (exam > 90 || projects > 10) {
+    return 100;
+  } else if (exam > 75 && projects >= 5) {
+    return 90;
+  } else if (exam > 50 && projects >= 2) {
+    return 75;
+  } else {
+    return 0;
+  }
+}*/
+
+// I love you, a little , a lot, passionately ... not at all
+/*function howMuchILoveYou(nbPetals) {
+  let phrases = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+  return phrases[(nbPetals - 1) % 6];
+}*/
+
+// Grasshopper - Messi goals function
+/*function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  let totalGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+  return totalGoals;
+}*/
+
+// 
