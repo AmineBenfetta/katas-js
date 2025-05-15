@@ -369,4 +369,47 @@ return list.reverse() ;
     return s.replaceAll(/[aeiou]/gi, '!');
 }*/
 
-// 
+// Find the position!
+/*function position(letter){
+  let alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+  for (let i = 0; i < alphabet.length; i++){
+    if (alphabet[i] === letter) {
+      return "Position of alphabet: " + (i + 1);
+    }
+  }
+  //Write your own Code!
+}*/
+
+// For UFC Fans (Total Beginners): Conor McGregor vs George Saint Pierre
+/*function quote(fighter) {
+  let name = fighter.toLowerCase();
+  if (name === 'george saint pierre') {
+    return "I am not impressed by your performance.";
+  } else if (name === 'conor mcgregor') {
+    return "I'd like to take this chance to apologize.. To absolutely NOBODY!";
+  }
+};*/
+
+// Enumerable Magic #1 - True for All?
+
+/*function all( arr, fun ){
+  for (let i = 0; i < arr.length; i++) {
+    if (!fun(arr[i])) {
+      return false;
+    }
+  }
+  return true; 
+}*/
+// Sum of Multiples
+/*function sumMul(n,m){
+  if (m <= 0) {
+    return "INVALID";
+  }
+let sum = 0;
+  for (let i = n; i < m; i += n) {
+    sum += i;
+  }
+  return sum;
+}*/
+//Mr. Freeze
+/*Object.freeze(MrFreeze);*/
