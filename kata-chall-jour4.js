@@ -99,4 +99,22 @@ let arr = [];
   }
 }*/
 
+// Sort and Star
+/*function twoSort(s) {
+  let alphabet = s.sort();
+  let first = alphabet[0].split("");
+  return first.join("***");
+}*/
+
+//My head is at the wrong end!
+/*function fixTheMeerkat(arr) {
+ return arr.reverse();
+}*/
+
+// get character from ASCII Value
+/*function getChar(c){
+  return String.fromCharCode(c);
+}*/
+
 //
+
