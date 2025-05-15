@@ -116,5 +116,85 @@ let arr = [];
   return String.fromCharCode(c);
 }*/
 
-//
+// Multiplication table for number
 
+/*function multiTable(number) {
+  let result = "";
+  for (let i = 1; i <= 10; i++) {
+  if (i < 10) {
+    result += `${i} * ${number} = ${i * number}\n`;
+   } else {
+    result += `${i} * ${number} = ${i * number}`;
+   }
+  }
+  return result;
+}*/
+
+// Name Shuffler
+
+/*function nameShuffler(str){
+  let shuffle = str.split(' ');
+  return shuffle.reverse().join(' ');
+}*/
+
+// 5 without numbers !!
+/*function unusualFive() {
+  let five = ['a', 'a', 'a', 'a', 'a'];
+  return five.length;
+}*/
+
+// Hello, Name or World!
+
+/*function hello(name) {
+  if (name === "" || name === undefined) {
+    return "Hello, World!"; 
+  }
+  name = name[0].toUpperCase() + name.slice(1).toLowerCase();
+  return `Hello, ${name}!`;
+}*/
+
+// 1st kyu 6! Multiples of 3 or 5
+
+/*function solution(number){
+  if (number < 0) {
+    return 0;
+  }
+  let sum = 0;
+  let table = [];
+  for (let i = 1; i < number; i++) {
+  if (i % 3 === 0 || i % 5 === 0) {
+    sum += i;
+  }
+  }
+  return sum;
+}*/
+
+//  How old will I be in 2099?
+/*function  calculateAge(birth, count) {  
+  let result = count - birth; 
+  let unit = (Math.abs(result) === 1) ? "year" : "years";
+  if (result === 0) {
+    return "You were born this very year!";
+  } else if (result < 0) {
+    return `You will be born in ${Math.abs(result)} ${unit}.`;
+  } else if (result > 0) {
+    return `You are ${result} ${unit} old.`;
+  }
+    
+  }*/
+
+// Split Strings
+
+/*function solution(str){
+   let arr = [];
+  for (let i = 0; i < str.length; i += 2) {
+    if (str[i+1] === undefined) {
+    arr.push(str[i] + '_');
+} else {
+  arr.push(str[i] + str[i+1]);
+}
+}
+  return arr;
+}*/
+
+// 
