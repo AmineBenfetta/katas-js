@@ -219,5 +219,12 @@ function hero(bullets, dragons){
  return dna.replaceAll("T", "U");
 }*/
 
-//
+// Will you make it?
+
+/*const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  return distanceToPump <= mpg * fuelLeft;
+};*/
+
+// Calculate BMI
+
 
