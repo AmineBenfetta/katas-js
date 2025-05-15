@@ -225,6 +225,178 @@ function hero(bullets, dragons){
   return distanceToPump <= mpg * fuelLeft;
 };*/
 
-// Calculate BMI
 
+// Find Maximum and Minimum Values of a List
 
+/*var min = function(list){
+    
+    return Math.min(...list);
+}
+
+var max = function(list){
+    
+    return Math.max(...list);
+}*/
+
+// You only need one - Beginner
+
+/*function check(a, x) {
+  return a.includes(x);
+}*/
+
+// Fake Binary
+
+/* j'ai utilisé une fonction ternaire pour celui-ci dans .map
+function fakeBin(x){
+  return x.split('').map((a)=> Number(a) < 5 ? '0' : '1').join('');
+}*/
+
+// Convert a string to an array
+
+/*function stringToArray(string){
+  return string.split(" ");
+}*/
+
+// Count by X
+
+/*function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i <= n; i++) {
+   z.push(x * i);
+  }
+  return z;
+}*/
+
+// Reversed sequence
+
+/*const reverseSeq = n => {
+  let z = [];
+  for (let i = 0; i < n; i++) {
+    z.push(n - i);
+  }
+  return z;
+};*/
+
+// Rock Paper Scissors!
+/* utilisation d'objets pour mettre une règle en place dans le pierre feuille sciseaux
+const rps = (p1, p2) => {
+  let rules = {
+    rock: "scissors",
+    scissors: "paper",
+    paper: "rock", 
+  };
+  if (p1 === p2) {
+    return "Draw!";
+  } else if (rules[p1] === p2) {
+    return "Player 1 won!" ;
+  } else {
+    return "Player 2 won!";
+  }
+};*/
+
+// If you can't sleep, just count sheep!!
+
+/*var countSheep = function (num){
+  let count = "";
+  for (let i = 1; i <= num; i++) {
+    count += `${i} sheep...`;
+  }
+  return count;
+}*/
+
+// Grasshopper - Grade book
+
+/*function getGrade (s1, s2, s3) {
+  let avg = (s1 + s2 + s3) / 3;
+  if (avg >= 90) {
+    return 'A';
+  } else if (avg >= 80) {
+    return 'B';
+  } else if (avg >= 70) {
+    return 'C';
+  } else if (avg >= 60) {
+    return 'D';
+  } else {
+    return 'F';
+  }
+}*/
+
+// Grasshopper - Personalized Message
+
+/*function greet (name, owner) {
+  return name === owner ? 'Hello boss' : 'Hello guest';
+}*/
+
+// Transportation on vacation
+
+/*function rentalCarCost(d) {
+  let amount = 40 * d;
+  return d >= 7 ? amount - 50 : d >= 3 ? amount - 20 : amount;
+}*/
+
+// Quarter of the year
+/* fonction ternaire = bro-ken
+const quarterOf = (month) => {
+  return month <= 3 ? 1 : month <= 6 ? 2 : month <= 9 ? 3 : 4;
+}*/
+
+// Remove exclamation marks
+
+/*function removeExclamationMarks(s) {
+  return s.replaceAll('!', '');
+}*/
+
+// Volume of a Cuboid
+
+/*class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}*/
+
+// Total amount of points
+
+/*function points(games) {
+  let total = 0;
+  for (let i = 0; i < games.length; i++) {
+    let [x,y] = games[i].split(":");
+    x = Number(x);
+    y = Number(y);
+   total += x > y ? 3 : x === y ? 1 : 0;
+  }
+  return total;
+}*/ 
+
+// Area or Perimeter
+
+/*const areaOrPerimeter = function(l , w) {
+  return l === w ? w * l : (l + w) * 2;
+};*/
+
+// Training JS #1: create your first JS function and print "Hello World!"
+
+/*function helloWorld() {
+  let str = "Hello World!";
+  console.log(str);
+}*/
+// Training JS #2: Basic data types--Number
+
+// Training JS #3: Basic data types--String
+
+// Reversed Words
+
+/*function reverseWords(str){
+  return str.split(" ").reverse().join(" ");
+}*/
+
+// Jenny's secret message
+
+/*function greet(name){
+  if(name === "Johnny") {
+    return "Hello, my love!";
+    } else {
+      return "Hello, " + name + "!";
+    }
+}*/
+
+// 
