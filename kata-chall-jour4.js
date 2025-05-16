@@ -237,3 +237,34 @@ let arr = [];
   const uniqIndex = sigs.findIndex(sig => count[sig] === 1);
   return arr[uniqIndex];
 }*/ // version opti
+
+// Basic variable assignment
+/*var a = "code";
+var b = "wa.rs";
+var name = a + b;*/
+
+// Find numbers which are divisible by given number
+/*function divisibleBy(numbers, divisor){
+  let result = [];
+  for (let i = 0; i < numbers.length ; i++){
+   if (numbers[i] % divisor === 0) {
+     result.push(numbers[i]);
+   }
+ }
+  return result;
+}*/
+
+// A wolf in sheep's clothing
+/*function warnTheSheep(queue) {
+  queue.reverse();
+  if (queue[0] === "wolf") {
+      return "Pls go away and stop eating my sheep";
+    }
+  for (let i = 0; i < queue.length; i++) {
+     if (queue[i] === "wolf") {
+      return `Oi! Sheep number ${i}! You are about to be eaten by a wolf!`
+    }
+  }
+}*/
+
+//
