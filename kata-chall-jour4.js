@@ -197,4 +197,43 @@ let arr = [];
   return arr;
 }*/
 
-// 
+// Find the unique number
+/*function findUniq(arr) {
+  return arr.find((item) => arr.indexOf(item) === arr.lastIndexOf(item));
+}*/
+
+// Find the unique string 5kyu
+
+/*function findUniq(arr) {
+  const sets = arr.map(str => new Set(str.toLowerCase()));
+  for (let i = 0; i < sets.length; i++) {
+    const currentSet = sets[i];
+    let otherLetters = new Set();
+    
+    for (let j = 0; j < sets.length; j++) {
+      if (j !== i) {
+        for (let char of sets[j]) { 
+          otherLetters.add(char);
+        }
+      }
+    }
+          for (let letter of currentSet) {
+            if (!otherLetters.has(letter)) {
+              return arr[i];
+            }
+          }
+  }
+  return null; 
+}*/  // version trop lente pour codewars
+/*function findUniq(arr) {
+  function signature(str) {
+    return [...new Set(str.toLowerCase())].sort().join('');
+  }
+  const sigs = arr.map(signature);
+  const count = {};
+  for (let sig of sigs) {
+    count[sig] = (count[sig] || 0) + 1;
+  }
+  const uniqIndex = sigs.findIndex(sig => count[sig] === 1);
+  return arr[uniqIndex];
+}*/ // version opti
